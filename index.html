@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="forms">
+      <div class="form-wrapper is-active">
+        <button type="button" class="switcher switcher-login">
+          Login
+          <span class="underline"></span>
+        </button>
+
+        <form class="form form-login">
+          <div class="form-img-wrapper">
+            <img class="form-img-1" src="./images/1.png" />
+            <img class="form-img-2" src="./images/1.png" />
+            <img class="form-img-3" src="./images/2.png" />
+            <img class="form-img-4" src="./images/1.png" />
+            <img class="form-img-5" src="./images/1.png" />
+          </div>
+          <div class="fieldset">
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <button class="btn-grad">Login</button>
+          </div>
+        </form>
+      </div>
+      <!-- Second form -->
+      <div class="form-wrapper">
+        <button type="button" class="switcher switcher-signup">
+          Sign Up
+          <span class="underline"></span>
+        </button>
+        <form class="form form-signup">
+          <div class="form-img-wrapper">
+            <img class="form-img-1" src="./images/1.png" />
+            <img class="form-img-2" src="./images/1.png" />
+            <img class="form-img-3" src="./images/2.png" />
+            <img class="form-img-4" src="./images/1.png" />
+            <img class="form-img-5" src="./images/1.png" />
+          </div>
+          <div class="fieldset">
+            <label for="username">User Name</label>
+            <input type="username" id="username" />
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+            <label for="password">Password</label>
+            <input type="password" id="password" />
+            <button class="btn-grad">Sign up</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
